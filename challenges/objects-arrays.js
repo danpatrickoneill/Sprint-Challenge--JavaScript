@@ -240,7 +240,7 @@ The zoos need a list of all their animal's names (names only, not scientific) co
 
 */
 
-const lowerCase =zooAnimals.map(animal => animal.animal_name.toLowerCase())
+const lowerCase = zooAnimals.map(animal => animal.animal_name.toLowerCase());
 console.log(lowerCase);
 
 /* Request 3: .filter() 
@@ -257,8 +257,10 @@ console.log(largerPopulation);
 The zoos need to know their total animal population across the United States.  Find the total population from all the zoos using the .reduce() method.
 
 */
-const populationTotal = zooAnimals.reduce((accumulator, animal) =>
- accumulator + animal.population, 0)
+const populationTotal = zooAnimals.reduce(
+  (accumulator, animal) => accumulator + animal.population,
+  0
+);
 console.log(populationTotal);
 
 /* 
