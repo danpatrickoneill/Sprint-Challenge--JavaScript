@@ -41,6 +41,8 @@ class CubeMaker extends CuboidMaker {
 
 const cube = new CubeMaker(10);
 
+// Inherited methods still work great!
+
 console.log(cube.volume()); // 1000
 console.log(cube.surfaceArea()); // 600
 
