@@ -19,7 +19,7 @@ function consume(x, y, cb) {
 
 const add = (x, y) => x + y;
 const multiply = (x, y) => x * y;
-const greeting = (x, y) => `Hello ${x} ${y}, nice to meet you!`;
+const greeting = (first, last) => `Hello ${first} ${last}, nice to meet you!`;
 
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
 console.log(consume(2, 2, add)); // 4
